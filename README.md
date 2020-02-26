@@ -83,7 +83,7 @@ Passenger:
 
 ## Complete the questions below:
 
-  Which tables have foreign keys?
+  Which table(s) have foreign key(s)?
   
     Answer Here:
 
@@ -91,7 +91,7 @@ Passenger:
   
     Answer Here:
 
-  When would you need a join table?
+  When would you need to use a join table?
   
     Answer Here:
 
