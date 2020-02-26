@@ -40,25 +40,6 @@ Flight:
   `Flight#total_passengers`
     - returns the total sum of number of passengers associated with the flight as an integer
 
-Passenger:
-- has a name
-- has many Flights 
-
-  `Passenger#name`
-    - returns the passenger's name as a string
-    
-  `Passenger#flights`
-    - returns an array of all flight instances associated with the passenger
-    
-  `Passenger#tickets`
-    - returns an array of all ticket instances associated with the passenger
-    
-  `Passenger#planes`
-    - returns an array of all plane instances associated with the passenger
-    
-  `Passenger#total_flight_time`
-    - returns the total sum of the duration for each flight associated with the passenger as an integer 
-
 Plane:
 - has a name 
 - has a num_of_seats
@@ -77,17 +58,37 @@ Plane:
     - returns an array of all passenger instances associated with the plane
     
   `Plane#total_passengers`
-    - returns the total sum of number of passengers associated with this plane as an integer 
+    - returns the total sum of number of passengers associated with this plane as an integer
+
+Passenger:
+- has a name
+- has many Flights
+
+  `Passenger#name`
+    - returns the passenger's name as a string
+    
+  `Passenger#flights`
+    - returns an array of all flight instances associated with the passenger
+    
+  `Passenger#tickets`
+    - returns an array of all ticket instances associated with the passenger
+    
+  `Passenger#planes`
+    - returns an array of all plane instances associated with the passenger
+    
+  `Passenger#total_flight_time`
+    - returns the total sum of the duration for each flight associated with the passenger as an integer 
+
 
   *When you have completed your app you will need to answer the questions below to help out any new developers joining your team. Please write a short response answering in your own words*
 
-## Complete the questions below: 
+## Complete the questions below:
 
   Which tables have foreign keys?
   
     Answer Here:
 
-  What gives us the ability to call the `Passenger#flights` method? 
+  Where does the `Passenger#flights` method come from?
   
     Answer Here:
 
