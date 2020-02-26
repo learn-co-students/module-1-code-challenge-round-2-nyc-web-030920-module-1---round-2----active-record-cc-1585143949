@@ -68,13 +68,13 @@ Passenger:
     - returns the passenger's `name`
     
   `Passenger#flights`
-    - returns an array of all of the passenger's flights
+    - returns an array of all of the passenger's `flights`
     
   `Passenger#tickets`
-    - returns an array of all of the passenger's tickets
+    - returns an array of all of the passenger's `tickets`
     
   `Passenger#planes`
-    - returns an array of all of the passenger's planes
+    - returns an array of all of the passenger's `planes`
     
   `Passenger#total_flight_time`
     - returns the passenger's total `duration_in_minutes` from all of the passenger's flights
