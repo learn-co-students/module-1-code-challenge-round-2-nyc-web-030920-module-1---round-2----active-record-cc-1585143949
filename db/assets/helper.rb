@@ -16,12 +16,13 @@ def seed
   #   flight_maker.call('yeet')
   #   Ticket.create(flight: Flight.all.sample, passenger: Passenger.all.sample)
   # end
-  Passenger.destroy_all
-  Plane.destroy_all
-  Flight.destroy_all
-  p1 = Passenger.create!(name: "Tashawn")
-  p2 = Passenger.create!(name: "Ali")
-  p3 = Passenger.create!(name: "Ian")
+Passenger.destroy_all
+Plane.destroy_all
+Flight.destroy_all
+
+p1 = Passenger.create!(name: "Tashawn")
+p2 = Passenger.create!(name: "Ali")
+p3 = Passenger.create!(name: "Ian")
 
 pl1 = Plane.create!(name: "Boeing 757", num_of_seats: 100)
 pl2 = Plane.create!(name: "Airbus", num_of_seats: 45)
