@@ -71,3 +71,21 @@ Passenger:
     
   `Passenger#total_flight_time`
     - returns the passenger's total `duration_in_minutes` from all of the passenger's flights
+
+## Complete the questions below:
+
+Which table(s) have foreign key(s)?
+
+Answer Here:
+
+For this domain, which methods does ActiveRecord create for us?
+
+Answer Here:
+
+When do you need to use a join table?
+
+Answer Here:
+
+What is the join table in this application?
+
+Answer Here:
