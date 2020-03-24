@@ -76,7 +76,7 @@ Passenger:
 
 Which table(s) have foreign key(s)?
 
-:Answer Here
+: Answer Here
 
 For this domain, which methods does ActiveRecord create for us?
 
