@@ -74,18 +74,18 @@ Passenger:
 
 ## Complete the questions below:
 
-* Which table(s) have foreign key(s)?
+Which table(s) have foreign key(s)?
 
-Answer Here
+  Answer Here:
 
-* For this domain, which methods does ActiveRecord create for us?
+For this domain, which methods does ActiveRecord create for us?
 
-Answer Here:
+  Answer Here:
 
-* When do you need to use a join table?
+When do you need to use a join table?
 
-Answer Here:
+  Answer Here:
 
-* What is the join table in this application?
+What is the join table in this application?
 
-Answer Here:
+  Answer Here:
