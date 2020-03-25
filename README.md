@@ -76,16 +76,16 @@ Passenger:
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:	
+    Answer Here:	Flights 
 
   For this domain, which methods does ActiveRecord create for us?	
 
-    Answer Here:	
+    Answer Here: All the methods except plane#total_passengers, passenger#total_flight_time, and flight#total_passengers 
 
   When do you need to use a join table?	
 
-    Answer Here:	
+    Answer Here: To get shared data from two different models(plane and passenger)
 
   What is the join table in this application?	
 
-    Answer Here:
+    Answer Here: Flights
