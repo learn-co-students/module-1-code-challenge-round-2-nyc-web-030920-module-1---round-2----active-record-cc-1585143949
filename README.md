@@ -76,16 +76,16 @@ Passenger:
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:	
+    Answer Here: flights	
 
   For this domain, which methods does ActiveRecord create for us?	
 
-    Answer Here:	
+    Answer Here:	ActiveRecord creates the SQL methods and 
 
   When do you need to use a join table?	
 
-    Answer Here:	
+    Answer Here:	when there is a many to many relationship. 
 
   What is the join table in this application?	
 
-    Answer Here:
+    Answer Here: flights
