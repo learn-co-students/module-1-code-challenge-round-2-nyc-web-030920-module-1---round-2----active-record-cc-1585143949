@@ -10,8 +10,9 @@ class Flight < ActiveRecord::Base
         self.origin 
     end 
 
+    
     def plane 
         self.planes.map(&:name) 
     end 
-    
+
 end
