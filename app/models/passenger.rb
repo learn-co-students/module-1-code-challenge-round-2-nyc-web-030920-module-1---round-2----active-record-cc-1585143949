@@ -1,4 +1,4 @@
 class Passenger < ActiveRecord::Base
-    has_many :planes  
+    belongs_to :plane  
     has_many :flights, through: :planes 
 end
